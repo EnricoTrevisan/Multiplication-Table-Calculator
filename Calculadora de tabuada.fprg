@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="Calculadora de tabuada"/>
+        <attribute name="authors" value="T1DEV-T2"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-02-20 04:41:20 "/>
+        <attribute name="created" value="VDFERVYtVDI7REVTS1RPUC0zQk5WSTM0OzIwMjUtMDItMjA7IjA0OjEzOjI5ICI7Mjc2Mg=="/>
+        <attribute name="edited" value="VDFERVYtVDI7REVTS1RPUC0zQk5WSTM0OzIwMjUtMDItMjA7IjA0OjQxOjIwICI7MTsyODYy"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="x" type="Integer" array="False" size=""/>
+            <assign variable="x" expression="0"/>
+            <declare name="tabuada" type="Integer" array="False" size=""/>
+            <output expression="&quot;Ol&#225;, seja bem-vindo a calculadora de tabuada Seixon!&quot;" newline="True"/>
+            <output expression="&quot;Para come&#231;ar, escolha a tabuada que quer.&quot;" newline="True"/>
+            <input variable="tabuada"/>
+            <while expression="x &lt;= 10">
+                <output expression="&quot;&quot; &amp; tabuada &amp; &quot;x&quot; &amp; x &amp; &quot;=&quot; &amp; tabuada*x" newline="True"/>
+                <assign variable="x" expression="x + 1"/>
+            </while>
+            <output expression="&quot;Obrigado por usar a calculadora de tabuada Seixon! Esperemos sua pr&#243;xima visita.&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
